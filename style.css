@@ -1,0 +1,815 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.startingpage{
+	display: flex;
+	    width:1263px;
+	background: #f0faf8;
+
+}
+#head1
+{ 
+font-size: 15px;
+color: #000000;
+/* background: #f0faf8; */
+background-size: 100%;
+word-spacing: 3px;
+text-indent: 15px;
+background-attachment:fixed;
+font-style: italic;
+}
+.startimg
+{
+	height:50%;
+	width: 50%;
+	margin-left: 800px;
+
+}
+.startimg>img{
+    float: right;
+	height: 60%;
+	width: 70%;
+	background-attachment:scroll;
+	margin-top: 80px;
+	background-size:40%40%;
+	background-repeat: no-repeat;
+     
+}
+.hammenu{
+margin-left:1220px;
+margin-top: -50px;
+
+}
+
+.menudiv
+
+{
+	flex-direction: row;
+   flex-wrap: wrap;
+	display: flex;
+	height: 70px;
+	display: flex;
+
+}
+.b1,.b2,.b3
+{    
+	margin-top: 8px;
+	width: 30px;
+	height: 3px;
+	background-color: black;
+	 
+	
+
+}
+#head2{
+	font-style: italic;
+	font-size: 35px;
+	color: #ed1846;
+	background-color: ffffff;
+	text-indent: 30px;
+    background-attachment: fixed;
+    font-family: 'Zen Loop', cursive;
+    letter-spacing: 3px;
+    font-weight: 400px;
+}
+#way{
+	height: 100px;
+	font-size: 80px;
+	font-weight: 600;
+	font-family: 'Zen Loop', cursive ;
+	margin-left: 420px;
+    margin-top: -230px;
+}
+.ha01{
+	margin-left: 200px;
+	font-family: 'Zen Loop', cursive;
+	font-size: 25px;
+	color: black;
+	transition: color .1s;
+
+}
+.ha1{
+	margin-left: 90px;
+	font-family: 'Zen Loop', cursive;
+	font-size: 25px;
+	color: black;
+	transition: color .1s;
+}
+.ha1:hover,.ha01:hover
+{
+	color:#f75648 ;
+}
+.mp
+{
+color: black;
+    margin-top: -55px;
+}
+
+.m5{
+	border-style: solid;
+	border-color:#f75648 ;
+	background-color:#f75648 ;
+	margin-left: 1000px;
+	height: 40px;
+	width: 200px;
+	margin-top: -30px;
+
+}
+#m6
+{
+	color:#f75648;
+}
+#ha2{
+font-family: 'Zen Loop', cursive;
+	font-size: 25px;
+	color:white;
+}
+#m1,#m2,#m3,#m4{
+	color: white;
+}
+
+.box1{
+	background-color: #fcf0eb;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 1263px;
+}
+.text1{
+	margin-left: 280px;
+    margin-top: -90px;
+        height: 50px
+}
+#head3{
+	color: #ed1846;
+	font-family: 'Zen Loop', cursive;
+}
+#head4{
+	color: #ed1846;
+	font-family: 'Zen Loop', cursive;
+}
+.button1{
+	border-style: solid;
+	width: 280px;
+	height: 70px;
+	padding: 10px;
+	margin-left: 420px;
+	margin-bottom: 30px;
+	text-align:center; 
+	background-color: #f75648;
+	border-color: #f75648;
+	transition: width 2s, height 4s ,color 2s ;
+	/*color: white;*/
+	/*color: white;*/
+	
+}
+.button1:hover {
+	height: 50px;
+	width: 380px;
+	color: black;	
+}
+.nocredit {
+    width: 300px;
+    font-size: 1.8rem;
+    font-family: 'Zen Loop', cursive;
+    margin-left: 480px;
+    margin-bottom: 30px;
+}
+#head5{
+ font-size: 30px;
+	font-family: 'Zen Loop', cursive;
+	font-weight: 200%;
+	margin: 4px;
+	color: white;
+}
+
+
+#link1{ 
+	font-size: 20px;
+	color: #f75648;
+	font-family: 'Zen Loop', cursive;
+	transition: color 2s;
+}
+.blogheading{
+    text-align: center;
+    font-family: 'Zen Loop', cursive;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 200%S;
+}
+#midword
+{
+    color:  #f75648;
+}
+.img1{
+	height: 350px;
+	width: 500px;
+	font-family: 'Zen Loop', cursive;
+
+}
+.img1>img{
+	height: 60%;
+	width: 65%;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+
+.img1heading
+{   font-weight: 200%;
+	color: #000000;
+	width: 350px;
+	font-family: 'Zen Loop', cursive;
+	margin-left: 50px;
+	margin-top:20px;
+    letter-spacing: 2px;
+	word-spacing: 4px;
+}
+#img1linkcolor{
+	color:white;
+}
+#img1para{
+ width: 350px;
+ height: 120px;
+ font-weight:200%;
+ margin-left: 50px;
+ margin-top:10px ;
+ font-size: 20px;
+ letter-spacing: 2px;
+ word-spacing:3px;
+
+}
+#img1link2head{
+	font-family: 'Zen Loop', cursive;
+	margin-left: 150px;
+	color:  #f75648;
+	margin-top: -20px;
+}
+#img1link2{
+	color: white;
+}
+.img2{
+	height: 350px;
+	width: 500px;
+	font-family: 'Zen Loop', cursive;
+	margin-top: -310px;
+	margin-left: 470px;
+}
+.img2>img{
+ height: 60%;
+ width: 65%;
+ font-family: 'Zen Loop', cursive;
+
+}
+#img2head{
+	font-weight: 200%;
+	margin-top: 20px;
+	font-size: 28px;
+	height: 150px;
+	width: 350px;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	color: #000000;
+	font-family: 'Zen Loop', cursive;
+}
+#img2para
+{
+	width: 350px;
+	margin-top: -35px;
+	font-size: 20px;
+	word-spacing: 4px;
+	letter-spacing: 3px;
+}
+#img2link2head{
+	margin-left: 120px;
+	margin-top: 5px;
+	color: #f75648 ;
+}
+#img2link2{
+	color: white;
+}
+.img3>img{
+	height: 100%;
+	width: 100%;
+}
+	
+.img3{
+	height: 200px;
+	width: 330px;
+	font-family: 'Zen Loop', cursive;
+	margin-left: 880px;
+	margin-top: -350px;
+	
+}
+#img3head{
+	width: 350px;
+	height: 150px;
+	font-weight: 200%;
+	margin-top: 20px;
+	font-size: 28px;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	color: #000000;
+	font-family: 'Zen Loop', cursive;
+
+}
+#img3link1{
+
+	color: white;
+}
+#img3para
+{
+	width: 350px;
+	font-size: 20px;
+	word-spacing: 4px;
+	letter-spacing: 3px;
+	margin-top: -60px;
+}
+#img3link2{
+	color:white; 
+}
+#img3link2head{
+	margin-top: 20px;
+	margin-left: 95px;
+	color: #f75648 ;
+	font-size: 25px;
+}
+.img4{
+	height: 350px;
+	width: 500px;
+	font-family: 'Zen Loop', cursive;
+    margin-top: 300px;
+}
+.img4>img{
+	height: 60%;
+	width: 65%;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+
+.img4heading
+{   font-weight: 200%;
+	color: #000000;
+	width: 350px;
+	font-family: 'Zen Loop', cursive;
+	margin-left: 50px;
+	margin-top:20px;
+    letter-spacing: 2px;
+	word-spacing: 4px;
+}
+#img4linkcolor{
+	color:white;
+}
+#img4para{
+ width: 350px;
+ height: 120px;
+ font-weight:200%;
+ margin-left: 50px;
+ margin-top:10px ;
+ font-size: 20px;
+ letter-spacing: 2px;
+ word-spacing:3px;
+
+}
+#img4link2head{
+	font-family: 'Zen Loop', cursive;
+	margin-left: 150px;
+	color:  #f75648;
+	margin-top: -20px;
+}
+#img4link2{
+	color: white;
+}
+.img5{
+	height: 350px;
+	width: 500px;
+	font-family: 'Zen Loop', cursive;
+	margin-top: -310px;
+	margin-left: 470px;
+}
+.img5>img{
+ height: 60%;
+ width: 65%;
+ font-family: 'Zen Loop', cursive;
+
+}
+#img5head{
+	font-weight: 200%;
+	margin-top: 20px;
+	font-size: 28px;
+	height: 150px;
+	width: 350px;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	color: #000000;
+	font-family: 'Zen Loop', cursive;
+}
+#img5para
+{
+	width: 350px;
+	margin-top: -70px;
+	font-size: 20px;
+	word-spacing: 4px;
+	letter-spacing: 3px;
+}
+#img5link2head{
+	margin-left: 120px;
+	margin-top: 5px;
+	color: #f75648 ;
+}
+#img5link2{
+	color: white;
+}
+#img5link1color{
+	color: white;
+}
+.img6{
+	height: 200px;
+	width: 330px;
+	font-family: 'Zen Loop', cursive;
+	margin-left: 880px;
+	margin-top: -350px;
+	
+}
+#img6head{
+	width: 350px;
+	height: 150px;
+	font-weight: 200%;
+	margin-top: 20px;
+	font-size: 28px;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	color: #000000;
+	font-family: 'Zen Loop', cursive;
+
+}
+#img6link1{
+
+	color: white;
+}
+#img6para
+{
+	width: 350px;
+	font-size: 20px;
+	word-spacing: 4px;
+	letter-spacing: 3px;
+	margin-top: -60px;
+}
+#img6link2{
+	color:white; 
+}
+#img6link2head{
+	margin-top: 20px;
+	margin-left: 95px;
+	color: #f75648 ;
+	font-size: 25px;
+}
+.img7{
+	height: 350px;
+	width: 500px;
+	font-family: 'Zen Loop', cursive;
+    margin-top: 300px;
+}
+.img7>img{
+	height: 60%;
+	width: 65%;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+
+.img7heading
+{   font-weight: 200%;
+	color: #000000;
+	width: 350px;
+	font-family: 'Zen Loop', cursive;
+	margin-left: 50px;
+	margin-top:20px;
+    letter-spacing: 2px;
+	word-spacing: 4px;
+}
+#img7linkcolor{
+	color:white;
+}
+#img7para{
+ width: 350px;
+ height: 120px;
+ font-weight:200%;
+ margin-left: 50px;
+ margin-top:10px ;
+ font-size: 20px;
+ letter-spacing: 2px;
+ word-spacing:3px;
+
+}
+#img7link2head{
+	font-family: 'Zen Loop', cursive;
+	margin-left: 150px;
+	color:  #f75648;
+	margin-top: -20px;
+}
+#img7link2{
+	color: white;
+}
+.img8{
+	height: 350px;
+	width: 500px;
+	font-family: 'Zen Loop', cursive;
+	margin-top: -310px;
+	margin-left: 470px;
+}
+.img8>img{
+ height: 60%;
+ width: 65%;
+ font-family: 'Zen Loop', cursive;
+
+}
+#img8head{
+	font-weight: 200%;
+	margin-top: 20px;
+	font-size: 28px;
+	height: 150px;
+	width: 350px;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	color: #000000;
+	font-family: 'Zen Loop', cursive;
+}
+#img8para
+{
+	width: 350px;
+	margin-top: -70px;
+	font-size: 20px;
+	word-spacing: 4px;
+	letter-spacing: 3px;
+}
+#img8link2head{
+	margin-left: 120px;
+	margin-top: 5px;
+	color: #f75648 ;
+}
+#img8link2{
+	color: white;
+}
+#img8link1color{
+	color: white;
+}
+.img9{
+	height: 200px;
+	width: 330px;
+	font-family: 'Zen Loop', cursive;
+	margin-left: 880px;
+	margin-top: -350px;
+	
+}
+#img9head{
+	width: 350px;
+	height: 150px;
+	font-weight: 200%;
+	margin-top: 20px;
+	font-size: 28px;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	color: #000000;
+	font-family: 'Zen Loop', cursive;
+
+}
+#img9link1{
+
+	color: white;
+}
+#img9para
+{
+	width: 350px;
+	font-size: 20px;
+	word-spacing: 4px;
+	letter-spacing: 3px;
+	margin-top: -80px;
+}
+#img9link2{
+	color:white; 
+}
+#img9link2head{
+	margin-top: 20px;
+	margin-left: 95px;
+	color: #f75648 ;
+	font-size: 25px;
+}
+.img10{
+	height: 350px;
+	width: 500px;
+	font-family: 'Zen Loop', cursive;
+    margin-top: 300px;
+}
+.img10>img{
+	height: 60%;
+	width: 65%;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+
+.img10heading
+{   font-weight: 200%;
+	color: #000000;
+	width: 350px;
+	font-family: 'Zen Loop', cursive;
+	margin-left: 50px;
+	margin-top:20px;
+    letter-spacing: 2px;
+	word-spacing: 4px;
+}
+#img10linkcolor{
+	color:white;
+}
+#img10para{
+ width: 350px;
+ height: 120px;
+ font-weight:200%;
+ margin-left: 50px;
+ margin-top:10px ;
+ font-size: 20px;
+ letter-spacing: 2px;
+ word-spacing:3px;
+
+}
+#img10link2head{
+	font-family: 'Zen Loop', cursive;
+	margin-left: 150px;
+	color:  #f75648;
+	margin-top: -20px;
+}
+#img10link2{
+	color: white;
+}
+.img11{
+	height: 350px;
+	width: 500px;
+	font-family: 'Zen Loop', cursive;
+	margin-top: -310px;
+	margin-left: 470px;
+}
+.img11>img{
+ height: 60%;
+ width: 65%;
+ font-family: 'Zen Loop', cursive;
+
+}
+#img11head{
+	font-weight: 200%;
+	margin-top: 20px;
+	font-size: 28px;
+	height: 150px;
+	width: 350px;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	color: #000000;
+	font-family: 'Zen Loop', cursive;
+}
+#img11para
+{
+	width: 350px;
+	margin-top: -40px;
+	font-size: 20px;
+	word-spacing: 4px;
+	letter-spacing: 3px;
+}
+#img11link2head{
+	margin-left: 120px;
+	margin-top: 5px;
+	color: #f75648 ;
+}
+#img11link2{
+	color: white;
+}
+#img11link1color{
+	color: white;
+}
+.img12{
+	height: 200px;
+	width: 330px;
+	font-family: 'Zen Loop', cursive;
+	margin-left: 880px;
+	margin-top: -350px;
+	
+}
+#img12head{
+	width: 350px;
+	height: 150px;
+	font-weight: 200%;
+	margin-top: 20px;
+	font-size: 28px;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	color: #000000;
+	font-family: 'Zen Loop', cursive;
+
+}
+#img12link1{
+
+	color: white;
+}
+#img12para
+{
+	width: 350px;
+	font-size: 20px;
+	word-spacing: 4px;
+	letter-spacing: 3px;
+	margin-top: -80px;
+}
+#img12link2{
+	color:white; 
+}
+#img12link2head{
+	margin-top: 20px;
+	margin-left: 95px;
+	color: #f75648 ;
+	font-size: 25px;
+}
+.search-box{
+	justify-content: center;
+	text-align: center;
+}
+#head47
+ 	{ margin-top: 200PX;
+ 	 font-family: 'Zen Loop', cursive;
+		 font-size: 60px;
+		 font-weight: 300%;
+	}
+.search{
+	height: 60px;
+	width: 250px;
+   border-style: solid;
+   font-family: 'Zen Loop', cursive;
+	font-size: 35px;
+	font-weight: 300%;
+	border-width: 300%;
+	padding-left: 30px;
+	transition: width 1s,border-color 1s;
+
+}
+.search:hover{
+	width: 270px;
+
+}
+.search:click{
+border-color: blue;
+}
+.icon{
+ cursor: pointer;    
+}
+.last
+{  display: flex;
+	flex-wrap: wrap;
+	width: 1263px;
+}
+.last0
+{
+display: flex;
+flex-wrap: wrap;
+width: 1263px;
+
+}
+.endhead1
+{
+	font-family: 'Zen Loop', cursive;
+	font-size: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.endhead1color{
+	color: #f75648;
+}
+#endhead2{
+	font-family: 'Zen Loop', cursive;
+	font-size: 30px;
+	margin-left: 50px;
+}
+
+.endhead2link{
+	color: #f75648;
+}
+#endhead3{
+	font-family: 'Zen Loop', cursive;
+	font-size: 25px;
+	margin-left: 110px;
+	margin-top: 4px;
+}
+#endhead4{
+	font-family: 'Zen Loop', cursive;
+	font-size: 30px;
+	margin-left: 660px;
+	margin-top: -31px;
+}
+#endhead5{
+	font-family: 'Zen Loop', cursive;
+	font-size: 30px;
+	margin-left: 1070px;
+	margin-top: -33px;
+}
+#endhead6{
+	font-family: 'Zen Loop', cursive;
+	font-size: 30px;
+	margin-left: 850px;
+	margin-top: -33px;
+}
